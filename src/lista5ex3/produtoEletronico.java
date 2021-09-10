@@ -5,22 +5,22 @@ public class produtoEletronico {
 	private String telas;
 	private String placaDeCircuitos;
 	public String getFiacao() {
-		return fiacao;
+		return "fiacao";
 	}
 	public void setFiacao(String fiacao) {
 		this.fiacao = fiacao;
 	}
 	public String getTelas() {
-		return telas;
+		return "telas" ;
 	}
 	public void setTelas(String telas) {
 		this.telas = telas;
 	}
 	public String getPlacaDeCircuitos() {
-		return placaDeCircuitos;
+		return "placas De Circuitos";
 	}
 	public void setPlacaDeCircuitos(String placaDeCircuitos) {
-		this.placaDeCircuitos = placaDeCircuitos;
+		this.placaDeCircuitos = "placas De Circuitos";
 	}
 	
 	

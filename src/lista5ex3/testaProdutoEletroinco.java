@@ -8,12 +8,10 @@ public class testaProdutoEletroinco {
 		
 		System.out.println("Alguns componentes importantes para Produtos Eletrônicos: ");
 		
-		pe.setFiacao("Fiação");
-		pe.setPlacaDeCircuitos("Placas de Circuotos");
-		pe.setTelas("Telas");
+	    
 		
 		System.out.println("A "+ pe.getFiacao() + " Fiação é essencial para o funcionamento de Produtos Eletrônicos.");
-		System.out.println("Os "+ pe.getPlacaDeCircuitos() + " São essenciais para o funcionamento de Produtos Eletrônicos.");
+		System.out.println("As "+ pe.getPlacaDeCircuitos() + " São essenciais para o funcionamento de Produtos Eletrônicos.");
 		System.out.println("As "+ pe.getTelas() + " São essenciais para o funcionamento de Produtos Eletrônicos.");
 		
 		
