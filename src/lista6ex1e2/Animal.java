@@ -16,8 +16,11 @@ public class Animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public void emitirSom() {
-		System.out.println();
+	public String getSom() {
+		return som;
+	}
+	public void setSom(String som) {
+		this.som = som;
 	}
 	
 	

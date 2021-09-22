@@ -9,7 +9,7 @@ public class exercicio2 {
 		 int  par=0, impar=0, numero;
 		 
 		 
-		 for()
+		 //for()
 		
 	}
 }

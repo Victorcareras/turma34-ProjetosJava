@@ -9,21 +9,22 @@ public class testaAnimais {
 		
 		cachorro.apresente("kako", 15);
 		cachorro.correr();
-		cachorro.emitirSom();
-		System.out.println("Auauau");
+		cachorro.setSom("Emitindo som: ");
+		System.out.println("Auauau" + cachorro.getSom());
+		
 		
 		
 		cavalo.apresente("HolHorse", 33);
 		cavalo.correr();
-		cavalo.emitirSom();
-		System.out.println("iiihihiii");
+		cavalo.setSom("Emitindo som: ");
+		System.out.println("iiihihiii" + cavalo.getSom());
 		
 		
 		
 		preguica.apresente("Flash", 15);
 		preguica.subirArvore();
-		preguica.emitirSom();
-		System.out.println("A");
+		preguica.setSom("AA");
+		System.out.println("Emitindo som: "+ preguica.getSom());
 		
 	}
 
