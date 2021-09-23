@@ -54,3 +54,9 @@ select * from tb_personagem where arma like "%arco%";
 
 select classe, nome
 from  tb_classe inner join tb_personagem on tb_classe.id = tb_personagem.id_classe where id_classe = 3;
+
+
+
+ 
+
+
